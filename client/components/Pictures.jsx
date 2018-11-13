@@ -45,6 +45,7 @@ const Wrapper = styled.div`
   button {
     display: flex;
     cursor: pointer;
+    margin-top: 30px;
     font-weight: bold;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     color: #666666;
@@ -108,9 +109,13 @@ const AddressWrapper = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  h1 {
+    position: absolute;
+  }
   img {
     &.address-stars {
       width: 100px;
+      padding-top: 70px;
       object-fit: contain;
       margin-bottom: 0;
       align-self: flex-start;

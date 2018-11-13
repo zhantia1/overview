@@ -33,7 +33,7 @@ const Wrapper = styled.div`
     height: 18px;
     width: 25px;
   }
-  h1 {
+  h4 {
     font-family: serif;
     margin: 0.67em;
     font-size: 1em;
@@ -61,7 +61,7 @@ const Address = ({ address, phone, website, googleMap }) => (
       <svg>
         <path d="M14 7A5 5 0 0 0 4 7c0 1.97 1.15 3.658 2.806 4.472h-.17L9 16l2.363-4.528h-.17C12.85 10.658 14 8.97 14 7zM9 5a2 2 0 1 1 0 4 2 2 0 0 1 0-4z" />
       </svg>
-      <h1>{address}</h1>
+      <h4>{address}</h4>
     </div>
     <div>
       <svg>
